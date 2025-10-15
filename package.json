@@ -1,0 +1,23 @@
+{
+  "name": "fantasy-basketball-monitor",
+  "version": "1.0.0",
+  "description": "Automated fantasy basketball player alert system with email notifications",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "test": "node email-test.js"
+  },
+  "keywords": [
+    "fantasy",
+    "basketball",
+    "espn",
+    "alerts",
+    "monitoring"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "nodemailer": "^6.9.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "email": {
+    "to": "danmanbeeman@gmail.com",
+    "from": {
+      "user": "fantasyhoopsAPN@gmail.com",
+      "appPassword": "zkzv pcsh fmgf ierm"
+    }
+  },
+  "thresholds": {
+    "points": 20,
+    "rebounds": 1,
+    "assists": 1,
+    "threePointers": 0,
+    "steals": 0,
+    "blocks": 0,
+    "turnovers": 4
+  },
+  "espn": {
+    "leagueId": "1497752245",
+    "seasonYear": 2026,
+    "swid": "{2822CD92-BE85-41A0-A2CD-92BE8541A0EE}",
+    "espnS2": "AECrAZac1WNrYUpFNOPyJhaw%2FBFOrz1Rqcq4r7%2Fhmk23dfOHwVFdZGyE5ffBXfV4vqchg32RPL2J0aujAafedFb2TUMR4xBIYRC%2ByVKk57LF8nMs%2FJUlXRcF6Hz1%2FUStAY2fMuHFZyjKhTOa%2FMlKKKflOOoC%2FXSggMmxvmSfCGkEYPZS2M%2Bk0gu7UmCQhektT8hS7V2X%2FsVZ62hjJagvdjhrp8euagnMuAYtGKuj1b3wKQhk8t0hLMBCzOoTzwPMPerBkVNl01%2FRjHXOf9g4pZfmUds0v%2F1J6h7bgC2SndGNtA%3D%3D"
+  },
+  "monitoring": {
+    "checkIntervalMinutes": 5,
+    "onlyDuringGameTimes": true,
+    "gameTimeStart": "17:00",
+    "gameTimeEnd": "23:59",
+    "timezone": "America/Los_Angeles"
+  },
+  "rosterFile": "./2026_rostered_player_ids.json"
+}

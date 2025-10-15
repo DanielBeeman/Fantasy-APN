@@ -1,0 +1,24 @@
+ssh information:
+ssh pi@192.168.0.103
+password: Stephcurryg0at
+
+restart the program (if editing thresholds or making other changes):
+pm2 restart fantasy-monitor
+
+stop the program:
+pm2 stop fantasy-monitor
+
+start the program:
+pm2 start fantasy-monitor
+
+check status of program:
+pm2 ls
+
+prevent it from auto-starting on reboot:
+pm2 delete fantasy-monitor
+
+after making any changes (start, stop, restart, delete, etc.), run:
+pm2 save
+
+to see how many times the program has crashed and restarted, run:
+pm2 status

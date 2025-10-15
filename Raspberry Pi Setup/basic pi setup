@@ -1,0 +1,14 @@
+# Update system
+sudo apt update
+sudo apt upgrade -y
+
+# Check if Node.js is installed
+node --version
+
+# If not installed or version is old (need 14+):
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+
+# Verify installation
+node --version  # Should show v18.x or higher
+npm --version
