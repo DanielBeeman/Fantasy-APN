@@ -7,13 +7,13 @@
     }
   },
   "thresholds": {
-    "points": 20,
-    "rebounds": 1,
-    "assists": 1,
+    "points": 15,
+    "rebounds": 0,
+    "assists": 4,
     "threePointers": 0,
     "steals": 0,
     "blocks": 0,
-    "turnovers": 4
+    "turnovers": 10
   },
   "espn": {
     "leagueId": "1497752245",
